@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		5A4CA1842C9135B500AE80DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4CA1832C9135B500AE80DF /* AppDelegate.swift */; };
 		5A4CA1862C9135B500AE80DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4CA1852C9135B500AE80DF /* SceneDelegate.swift */; };
-		5A4CA1882C9135B500AE80DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4CA1872C9135B500AE80DF /* ViewController.swift */; };
 		5A4CA18B2C9135B500AE80DF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5A4CA18A2C9135B500AE80DF /* Base */; };
 		5A4CA18D2C9135B600AE80DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A4CA18C2C9135B600AE80DF /* Assets.xcassets */; };
 		5A4CA1902C9135B600AE80DF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5A4CA18F2C9135B600AE80DF /* Base */; };
 		5A4CA19B2C9135B600AE80DF /* YomakaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4CA19A2C9135B600AE80DF /* YomakaseTests.swift */; };
 		5A4CA1A52C9135B600AE80DF /* YomakaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4CA1A42C9135B600AE80DF /* YomakaseUITests.swift */; };
 		5A4CA1A72C9135B600AE80DF /* YomakaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4CA1A62C9135B600AE80DF /* YomakaseUITestsLaunchTests.swift */; };
+		5A4CA1BE2C91389400AE80DF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4CA1BD2C91389400AE80DF /* LoginViewController.swift */; };
+		5A4CA1C12C9138EE00AE80DF /* FloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4CA1C02C9138EE00AE80DF /* FloatingLabelTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,6 @@
 		5A4CA1802C9135B500AE80DF /* Yomakase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yomakase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A4CA1832C9135B500AE80DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A4CA1852C9135B500AE80DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5A4CA1872C9135B500AE80DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5A4CA18A2C9135B500AE80DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A4CA18C2C9135B600AE80DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A4CA18F2C9135B600AE80DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		5A4CA1A02C9135B600AE80DF /* YomakaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YomakaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A4CA1A42C9135B600AE80DF /* YomakaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YomakaseUITests.swift; sourceTree = "<group>"; };
 		5A4CA1A62C9135B600AE80DF /* YomakaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YomakaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5A4CA1BD2C91389400AE80DF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5A4CA1C02C9138EE00AE80DF /* FloatingLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingLabelTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +101,9 @@
 		5A4CA1822C9135B500AE80DF /* Yomakase */ = {
 			isa = PBXGroup;
 			children = (
+				5A4CA1BC2C91387700AE80DF /* ViewController */,
 				5A4CA1832C9135B500AE80DF /* AppDelegate.swift */,
 				5A4CA1852C9135B500AE80DF /* SceneDelegate.swift */,
-				5A4CA1872C9135B500AE80DF /* ViewController.swift */,
 				5A4CA1892C9135B500AE80DF /* Main.storyboard */,
 				5A4CA18C2C9135B600AE80DF /* Assets.xcassets */,
 				5A4CA18E2C9135B600AE80DF /* LaunchScreen.storyboard */,
@@ -125,6 +127,23 @@
 				5A4CA1A62C9135B600AE80DF /* YomakaseUITestsLaunchTests.swift */,
 			);
 			path = YomakaseUITests;
+			sourceTree = "<group>";
+		};
+		5A4CA1BC2C91387700AE80DF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5A4CA1BF2C9138D500AE80DF /* TextField */,
+				5A4CA1BD2C91389400AE80DF /* LoginViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5A4CA1BF2C9138D500AE80DF /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				5A4CA1C02C9138EE00AE80DF /* FloatingLabelTextField.swift */,
+			);
+			path = TextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +277,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A4CA1882C9135B500AE80DF /* ViewController.swift in Sources */,
+				5A4CA1BE2C91389400AE80DF /* LoginViewController.swift in Sources */,
 				5A4CA1842C9135B500AE80DF /* AppDelegate.swift in Sources */,
 				5A4CA1862C9135B500AE80DF /* SceneDelegate.swift in Sources */,
+				5A4CA1C12C9138EE00AE80DF /* FloatingLabelTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
